@@ -11,8 +11,8 @@ export device=land
 
 ROM="LineageOs"
 manifest_url="https://github.com/LineageOS/android_device_xiaomi_msm8937-common/blob/lineage-16.0/manifest.xml"
-export rom_vendor_name="LineageOs" # This represent the nams used by different rom vendors, Ex - aosp_harpia-userdebug, aosp is vendor name.
-branch="pie"
+export rom_vendor_name="lineage" # This represent the nams used by different rom vendors, Ex - aosp_harpia-userdebug, aosp is vendor name.
+branch="lineage-16.0"
 
 release_repo="AltafYafai/release"
 
