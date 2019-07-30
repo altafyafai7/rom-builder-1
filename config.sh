@@ -1,19 +1,19 @@
 #!/bin/bash
 
-GITHUB_USER=Akianonymus
-GITHUB_EMAIL=anonymus.aki@gmail.com
+GITHUB_USER=AltafYafai
+GITHUB_EMAIL=altaf.alu@gmail.com
 
-KBUILD_BUILD_USER="Aki"
-KBUILD_BUILD_HOST="A_DEAD_PLANET"
+KBUILD_BUILD_USER="Altaf"
+KBUILD_BUILD_HOST="Noob_Tester"
 
-export oem=motorola
-export device=harpia
+export oem=xiaomi
+export device=land
 
-ROM="PixelExperience"
-manifest_url="https://github.com/PixelExperience/manifest"
-export rom_vendor_name="aosp" # This represent the nams used by different rom vendors, Ex - aosp_harpia-userdebug, aosp is vendor name.
+ROM="LineageOs"
+manifest_url="https://github.com/LineageOS/android_device_xiaomi_msm8937-common/blob/lineage-16.0/manifest.xml"
+export rom_vendor_name="LineageOs" # This represent the nams used by different rom vendors, Ex - aosp_harpia-userdebug, aosp is vendor name.
 branch="pie"
 
-release_repo="Akianonymus/harpia_builds"
+release_repo="AltafYafai/release"
 
 timezone="Asia/Kolkata"
